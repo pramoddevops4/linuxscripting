@@ -10,3 +10,4 @@ for i in a:
    print(i)
    print(a)
    print("Welcome to generate sequence")
+   print("this is the line to test revert option")
