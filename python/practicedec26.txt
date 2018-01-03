@@ -1,0 +1,730 @@
+    1  mkdir docker
+    2  ll
+    3  cd docker
+    4  yum install
+    5  yum install docker
+    6  ls
+    7  git
+    8  cd ..
+    9  git
+   10  cd ..
+   11  ls
+   12  yum install git
+   13  git
+   14  ls
+   15  cd lib
+   16  ls
+   17  cd ../ ;cd tmp
+   18  ls
+   
+   19  cd ..
+   20  ps -ef | *git*
+   21  ps 
+   22  cd ~
+   23  ls
+   24  pwd
+   25  date
+   26  ls
+   27  cd ..
+   28  ls
+   29  cd tmp
+   30  ls
+   31  cd ../ ;cd home/centos/linux ;ls
+   32  cd ../../../ ;;s
+   33  cd ../../../ ;ls
+   34  cd dev
+   35  ls
+   36  cd ../ ; cd etc
+   37  ls
+   38  vi hostname
+   39  vi crontab
+   40  cd ..
+   41  pwd
+   42  ls
+   42  pramodh
+   42  pramodh
+   43  cd bin
+   44  ls
+   45  ls *git*
+   46  vi git
+   47  cd ../ ; cd lib64
+   48  ls
+   49  cd ../;cd bin ;cat git
+   5
+   51  ls
+   52  cd ../; cd lib
+   53  ls
+   54  cd ../;cd bin
+   55  ls
+   56  ls git*
+   57  cat git
+   59  ls
+   60  ls *git*
+   61  vi git
+   62  cd ../;cd lin64
+   63  cd lin64
+   64  cd lib64
+   65  ls
+   66  ls ld-*
+   67  vi ld-linux-x86-64.so.2
+   68  cd ../
+   69  ls
+   70  cd dev
+   71  ls
+   72  cd ~
+   73  ls
+   74  cd ..
+   75  ls
+   76  cd etc
+   77  ls
+   78  cd docker
+   79  ls
+   80  cat daemon.json
+   81  cd ../; cd gss
+   82  ls
+   83  cat exports
+   84  cd ../; cat exports
+   85  ls
+   86  cat exports
+   87  vi exports
+   88  cat DIR_COLORS
+   89  exit
+   90  yum install vim
+   91  ls
+   92  cd ..
+   93  cd centos
+   94  ls
+   95  cd usr
+   96  ls
+   97  cd src
+   98  ls
+   99  cd ../ ; cd tmp
+  100  ls
+  101  cd ../usr
+  102  cd ../ ;cd usr
+  103  ls
+  104  cd etc
+  105  ls
+  106  cd ../ ; cd bin
+  107  ls
+  108  cd sh
+  109  ls -ltr sh
+  110  vi sh
+  111  ls *vi*
+  112  cd ../
+  113  ls
+  114  cd  ../; cd local ; ls
+  115  cd usr/local
+  116  ls 
+  117  su
+  118  ls
+  119  su -centos
+  120  cd ..
+  121  ls
+  122  sudo su
+  123  ls
+  124  hostname -I
+  125  who
+  126  whoam i
+  127  who am i
+  128  date
+  129  compgen -cbka -A function > myfile23.txt
+  130  ls
+  131  vi myfile23.txt
+  132  ls
+  133  ls |sample1.txt
+  134  ls > sample1.txt
+  135  ls
+  136  vi sample1.txt
+  137  rm sample1.txt
+  138  ls
+  139  ps 
+  140  ps -ef
+  141  su centos
+  142  su centos
+  143  chmod 644 myfile23.txt
+  144  ls
+  145  cd ..
+  146  ls
+  147  chmod 644 myfile23.txt
+  148  ls
+  149  ls -ltr myfile23.txt
+  150  chmod 664 myfile23.txt
+  151  ls -ltr myfile23.txt
+  152  pwd
+  153  cd 
+  154  pwd
+  155  ls
+  156  vi original-ks.cfg
+  157  vi anaconda-ks.cfg
+  158  su centos
+  159  export HISTCONTROL=ignoredups
+  160  ls
+  161  history
+  162  ls
+  163  history
+  164  su centos
+  165  shutdown
+  166  ls
+  167  history
+  168  exit
+  169  ll
+  170  cd linux
+  171  ll
+  172  cd linuxcommand
+  173  ll
+  174  ls
+  175  ll
+  176  mkdir linux
+  177  ll
+  178  cd linux
+  179  git clone https://github.com/devopsgroup6/linuxcommand.git
+  180  cd ..
+  181  pwd
+  182  cd /
+  183  cd  home/centos
+  184  ls
+  185  cd linux
+  186  ls
+  187  cd linuxcommands
+  188  ls
+  189  git config --list
+  190  git config --global user.name "pramodh"
+  191  git config --list
+  192  chmod 766 Addition.py
+  193  ls -ltr Addition.py
+  194  ./Addition.py
+  195  ./hello.py
+  196  vim hello.py
+  197  ./hello.py
+  198  vim hello.py
+  199  ./hello.py
+  200  vim hello.py
+  201  ./hello.py
+  202  vim Addition.py
+  203  ./Addition.py
+  204  vim Addition.py
+  205  ./Addition.py
+  206  ls -ltr Addition.py
+  207  vim Addition.py hello.py
+  208  ls
+  209  ./hello.py
+  210  ./Addition.py
+  211  vim Addition.py
+  212  ./Addition.py
+  213  vim Addition.py
+  214  ./Addition.py
+  215  yum install python27
+  216  yum install python
+  217  python --version
+  218  ls
+  219  cd ../../..
+  220  ls
+  221  cd usr
+  222  ls
+  223  cd bin
+  224  ls
+  225  ls python
+  226  cd ../../
+  227  ls
+  228  cd home
+  229  su -i
+  230  cd centos
+  231  ls
+  232  cd linux
+  233  ls
+  234  vi pramodh23dec17.txt
+  235  vi pramodhdec23.txt
+  236  su -i
+  237  ls
+  238  git push
+  239  cd linuxcommands
+  240  git push
+  241  git push
+  242  cd ..
+  243  ls
+  244  cd ..
+  245  git clone https://github.com/devopsgroup6/linuxcommands.git 
+  246  ls
+  247  python
+  248  which python
+  249  python
+  250  ls
+  251  python
+  252  which python
+  253  vim addition
+  254  ls
+  255  mv addition addition.py
+  256  ls
+  257  pwd
+  258  mv /home/centos/addition.py /home/centos/linuxcommands
+  259  ls
+  260  cd /linuxcommands
+  261  cd linuxcommands
+  262  ls
+  263  git commit -am "python first program"
+  264  ls
+  265  python addition.py
+  266  git push
+  267  ls
+  268  which git
+  269  ls
+  270  git clone https://github.com/devopsgroup6/linuxcommands.git
+  271  ls
+  272  cd linuxcommands/
+  273  ls
+  274  cd ..
+  275  ls\
+  276  ls
+  277  cd ..
+  278  cd
+  279  ls
+  280  cd linux/
+  281  ls
+  282  pwd
+  283  cd linuxcommand/
+  284  pwd
+  285  ls
+  286  cd ..
+  287  ls
+  288  rm -r linuxcommand/
+  289  y
+  290  y
+  291  y
+  292  git clone https://github.com/devopsgroup6/linuxcommands.git
+  293  ls
+  294  cd linuxcommands/
+  295  ls
+  296  cd gitest 
+  297  rm -rf gitest 
+  298  vim hello.py
+  299  ./hello.py
+  300  ls -l
+  301  chmod 777 hello.py 
+  302  ./hello.py 
+  303  python --version
+  304  python hello.py
+  305  git add .
+  306  git pull
+  307  git add .
+  308  git status
+  309  ls
+  310  git commit -m "python program"
+  311  git config --global user.name "group6"
+  312  git config --global user.email "group6devops@gmail.com"
+  313  git config --global push.default "simple"
+  314  git config --list
+  315  git add .
+  316  git add --all .
+  317  git commit -m "python program "
+  318  git status
+  319  git push 
+  320  git push 
+  321  git push 
+  322  ls
+  323  ls
+  324  cd ..
+  325  ls
+  326  cd linuxcommands
+  327  ls
+  328  vim hello.py
+  329  vim Addition.py
+  330  ls
+  331  python Addition.py
+  332  git commit -am "addition"
+  333  git add .
+  334  git commit -m "addition"
+  335  git push
+  336  ls
+  337  vim diamond.py
+  338  ls
+  339  ./hello.py
+  340  ./Addition.py
+  341  su centos
+  342  ls
+  343  pwd
+  344  cd /home/centos
+  345  ls
+  346  cp EvenOrOdd.py /home/centos/linuxcommands
+  347  cd linuxcommands
+  348  ls
+  349  git commit -am "EvenOrOddfistcommit"
+  350  git add .
+  351  git commit -m "EvenOrOddfistcommit"
+  352  git push
+  353  git pull
+  354  git push
+  355  cd ..
+  356  ls
+  357  rm EvenOrOdd.py
+  358  ls
+  359  mkdir python
+  360  cd python
+  361  ls
+  362  vim Fibonaci.py
+  363  ./Fibonaci.py
+  364  chmod 766 Fibonaci.py
+  365  ./Fibonaci.py
+  366  vim Fibonaci.py
+  367  ./Fibonaci.py
+  368  vim Fibonaci.py
+  369  ./Fibonaci.py
+  370  vim Fibonaci.py
+  371  ./Fibonaci.py
+  372  vim Fibonaci.py
+  373  ./Fibonaci.py
+  374  python Fibonaci.py
+  375  vim Fibonaci.py
+  376  python Fibonaci.py
+  377  vim Fibonaci.py
+  378  python Fibonaci.py
+  379  vim Fibonaci.py
+  380  python Fibonaci.py
+  381  vim Fibonaci.py
+  382  python Fibonaci.py
+  383  ./Fibonaci.py
+  384  ./hello.py
+  385  ls
+  386  vim Fibonaci.py
+  387  touch 764 diamond.py
+  388  ls -ltr diamond.py
+  389  chmod 764 diamond.py
+  390  ls -ltr diamond.py
+  391  pwd
+  392  ls
+  393  cd home
+  394  cd /home
+  395  cd centos
+  396  ls
+  397  pwd
+  398  ls
+  399  cd python
+  400  ls
+  401  vi 764
+  402  rm 764
+  403  vim diamond.py
+  404  python diamond.py
+  405  vim diamond.py
+  406  python diamond.py
+  407  vim diamond.py
+  408  python diamond.py
+  409  vim diamond.py
+  410  python diamond.py
+  411  vim diamond.py
+  412  python diamond.py
+  413  vim diamond.py
+  414  python diamond.py
+  415  vim diamond.py
+  416  python diamond.py
+  417  vim diamond.py
+  418  python diamond.py
+  419  vim diamond.py
+  420  python diamond.py
+  421  vim diamond.py
+  422  python diamond.py
+  423  vim diamond.py
+  424  python diamond.py
+  425  vim diamond.py
+  426  python diamond.py
+  427  vim diamond.py
+  428  python diamond.py
+  429  vim diamond.py
+  430  python diamond.py
+  431  vim diamond.py
+  432  python diamond.py
+  433  vim diamond.py
+  434  python diamond.py
+  435  vim diamond.py
+  436  python diamond.py
+  437  touch sequence.py
+  438  chmod 766 sequence.py
+  439  vim sequence.py
+  440  python sequence.py
+  441  vim sequence.py
+  442  python sequence.py
+  443  vim diamond.py
+  444  python sequence.py
+  445  vim sequence.py
+  446  ls
+  447  cd ../
+  448  ls
+  449  cd linuxcommands
+  450  pwd
+  451  ls
+  452  vim EvenOrOdd.py
+  453  python EvenOrOdd.py
+  454  vim diamond.py
+  455  cd ../../
+  456  cd centos/linux
+  457  cd ../ ; cd python
+  458  ls
+  459  vi diamond.py
+  460  cd ../ ; cd linuxcommands
+  461  ls
+  462  vi EvenOrOdd.py
+  463  python EvenOrOdd.py
+  464  vim EvenOrOdd.py
+  465  python EvenOrOdd.py
+  466  vim EvenOrOdd.py
+  467  python EvenOrOdd.py
+  468  12
+  469  python EvenOrOdd.py
+  470  git add EvenOrOdd.py
+  471  git commit -m "Inputmodification to even or odd"
+  472  git push
+  473  ls
+  474  ls -a
+  475  vim linuxcommandshistory
+  476  history
+  477  history>pramodhdec25.txt
+  478  ls
+  479  git add pramodhdec25.txt
+  480  git commit -m "dec25commandshistory"
+  481  git push
+  482  cd ..
+  483  cd python
+  484  ls
+  485  vim primeOrNotPrime.py
+  486  python primeOrNotPrime.py
+  487  vim primeOrNotPrime.py
+  488  python primeOrNotPrime.py
+  489  vim primeOrNotPrime.py
+  490  python primeOrNotPrime.py
+  491  vim primeOrNotPrime.py
+  492  python primeOrNotPrime.py
+  493  vim primeOrNotPrime.py
+  494  python primeOrNotPrime.py
+  495  vim primeOrNotPrime.py
+  496  python primeOrNotPrime.py
+  497  vim primeOrNotPrime.py
+  498  python primeOrNotPrime.py
+  499  vim primeOrNotPrime.py
+  500  python primeOrNotPrime.py
+  501  vim primeOrNotPrime.py
+  502  python primeOrNotPrime.py
+  503  vim primeOrNotPrime.py
+  504  ls
+  505  vi sequence.py
+  506  ./sequence.py
+  507  pyhton sequence.py
+  508  python sequence.py
+  509  vi sequence.py
+  510  python sequence.py
+  511  vi sequence.py
+  512  python sequence.py
+  513  vi sequence.py
+  514  python sequence.py
+  515  vi sequence.py
+  516  python sequence.py
+  517  vi sequence.py
+  518  python sequence.py
+  519  vi sequence.py
+  520  python sequence.py
+  521  vi sequence.py
+  522  python sequence.py
+  523  ./sequence.py
+  524  python primeOrNotPrime.py
+  525  ./primeOrNotPrime.py
+  526  chmod 764 primeOrNotPrime.py
+  527  ./primeOrNotPrime.py
+  528  vim primeOrNotPrime.py
+  529  python primeOrNotPrime.py
+  530  cd ..
+  531  cp -r /home/centos/python /home/centos/linux/linuxcommands
+  532  cd linux/linuxcommands
+  533  ls
+  534  git add python
+  535  git commit -m "python programs"
+  536  git push
+  537  git pull
+  538  git push
+  539  ls
+  540  pwd
+  541  cd /var/lib/docker
+  542  ls
+  543  ls -a
+  544  cd /..
+  545  ls
+  546  cd lib64
+  547  ls
+  548  ls -ltr docker
+  549  ls -ltr *doc*
+  550  cd ..
+  551  ls
+  552  cd /home
+  553  ls
+  554  centos
+  555  cd centos
+  556  ls
+  557  cd ../../
+  558  cd ~
+  559  docker start
+  560  yum install docker
+  561  cd /home/centos
+  562  ls
+  563  cd docker
+  564  ls
+  565  docker ps
+  566  yum list docker-ce --showduplicates | sort -r
+  567  yum list docker  --showduplicates | sort -r
+  568  sudo systemctl start docker
+  569  sudo docker run hello-world
+  570  docker run -it centos /bin/bash
+  571  sudo docker run -p 8080:8080 -p 50000:50000 jenkins 
+  572  hostname
+  573  sudo systemctl start docker
+  574  docker start jenkins
+  575  ls
+  576  pwd
+  577  cd /tmp
+  578  ls
+  579  cd ../; cd /usr
+  580  ls
+  581  cd lib ; ls
+  582  ls -a
+  583  sendmail
+  584  ls sendmail
+  585  vim sendmail
+  586  hostname
+  587  hostname -I
+  588  cd ..
+  589  ls
+  590  which docker
+  591  which jenkins
+  592  cd /bin/docker
+  593  cd /bin
+  594  ls
+  595  vi docker
+  596  vim sudo
+  597  vim su
+  598  vi docker
+  599  cd ../ ; cd /etc ; ls
+  600  cd sysconfig
+  601  ls
+  602  vim docker
+  603  cd ..
+  604  ls
+  605  sudo systemctl start docker
+  606  docker ps
+  607  docker start a9de98108c9f
+  608  pwd
+  609  hostname
+  610  hostname -I
+  611  exit
+  612  sudo systemctl start docker
+  613  docker start 8dc348503771
+  614  ls
+  615  docker ps
+  616  pwd
+  617  docker start 8dc348503771
+  618  docker start centos_dec26
+  619  ls
+  620  ls -a
+  621  pwd
+  622  docker run -it centos_dec26
+  623  docker run -it centos /bin/bash
+  624  ls
+  625  ls docker26dec.txt
+  626  docker start b5fc4a5e4290
+  627  docker ps
+  628  docker start agitated_ritchie
+  629  docker attach agitated_ritchie
+  630  docker start centos_dec26
+  631  docker attach centos_dec26
+  632  docker ps
+  633  docker start 8dc348503771
+  634  docker ps
+  635  docker containers
+  636  docker ps -all
+  637  docker stop jenkins
+  638  docker ps -all
+  639  docker start jenkins
+  640  docker attach jenkins
+  641  ls
+  642  pwd
+  643  cd /home/docker
+  644  docker ps
+  645  docker start jenkins
+  646  docker attach jenkins
+  647  cd ..
+  648  ls
+  649  cd ..
+  650  ls
+  651  docker ps
+  652  docker ps -a
+  653  docker start a9de98108c9f
+  654  ls
+  655  hostname
+  656  docker systemctl start docker
+  657  sudo systemctl start docker
+  658  hostname
+  659  docker start a9de98108c9f
+  660  hostname
+  661  docker ps
+  662  docker tag a9de98108c9f jenkins/server:latest
+  663  docker rename desperate_ritchie jenkins
+  664  docker ps
+  665  docker search images
+  666  docker  images search
+  667  docker  images list
+  668  docker logs jenkins
+  669  docker run -it -p 8080:8080 centos /bin/bash
+  670  docker run -it  centos /bin/bash
+  671  ps
+  672  docker ps
+  673  docker start 8dc348503771
+  674  docker ps
+  675  docker rename jovial_hugle centos_dec26
+  676  docker ps
+  677  which jenkins
+  678  ps
+  679  docker ps
+  680  yum whatprovides service
+  681  sudo yum -y install java
+  682  sudo yum install jenkins
+  683  sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
+  684  sudo yum install jenkins
+  685  docker ps
+  686  sudo systemctl jenkins.services
+  687  sudo systemctl jenkins.service
+  688  sudo systemctl start a9de98108c9f
+  689  docker start jenkins
+  690  pwd
+  691  ls
+  692  sudo systemctl start docker
+  693  docker search images
+  694  docker run -it docker.io/wilmardo/jenkins-docker-images
+  695  docker run -it docker.io/wilmardo/jenkins-docker-images /bin/bash
+  696  yum update
+  697  ls tin*
+  698  cd /bin
+  699  ls tin*
+  700  ls -ltr t*
+  701  vi tty
+  702  cd ../; cd /etc/alternatives/tname
+  703  cd /etc/alternatives
+  704  ls
+  705  ls tnameserv
+  706  ls -ltr tnameserv
+  707  cd ..
+  708  ls -ltr alternatives
+  709  cd ..
+  710  ls
+  711  ls -ltr bin
+  712  cd ..
+  713  cd /home/centos/python
+  714  ls -ltr *.*
+  715  cd ../; ls -ltr *.*
+  716  ls
+  717  ls -ltr python
+  718  ls -l python
+  719  ll 
+  720  ll python
+  721  clear
+  722  nmap localhost
+  723  docker ps
+  724  docker attach centos_dec26
+  725  docker commit -m "LATEST PACKAGE" -a "pramodh" 8dc348503771 myowncentosimage:v4
+  726  docker search images
+  727  docker  images
+  728  history >practicedec26.txt
