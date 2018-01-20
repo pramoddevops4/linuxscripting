@@ -1,0 +1,446 @@
+    1  sudo yum update -y
+    2  vim
+    3  cd /
+    4  ls
+    5  cd etc
+    6  ls
+    7  git
+    8  sudo yum install git
+    9  git
+   10  git --version
+   11  which git
+   12  jenkins
+   13  cd ~
+   14  sudo -i
+   15  ls -l /var/www
+   16  sudo usermod -a -G apache ec2-user
+   17  ls 
+   18  ls -l /var/www
+   19  groups
+   20  exit
+   21  sudo usermod -a -G apache ec2-user
+   22  groups
+   23  ls -ltr apache
+   24  sudo chown -R ec2-user:apache /var/www
+   25  ls
+   26  ls -l /var/www
+   27  sudo chmod 2775 /var/www
+   28  find /var/www -type d -exec sudo chmod 2775 {} \;
+   29  cd /var/www
+   30  ls
+   31  ls -ltr
+   32  cd ../ ;
+   33  ls
+   34  ls -ltr www
+   35  find /var/www -type f -exec sudo chmod 0664 {} \;
+   36  find /var/www -type d -exec sudo chmod 2775 {} \;
+   37  cd ~
+   38  find /var/www -type d -exec sudo chmod 2775 {} \;
+   39  find /var/www -type f -exec sudo chmod 0664 {} \;
+   40  java -version
+   41  sudo yum install java-1.8.0-openjdk.x86_64
+   42  java -version
+   43  which java
+   44  cd /usr/bin/java
+   45  cd /usr/bin
+   46  ls
+   47  ls java
+   48  vi java
+   49  find . -name java
+   50  pwd
+   51  ls -a
+   52  cd /
+   53  find . -name java
+   54  cd /usr/lib/jvm
+   55  ls
+   56  rm -r java-1.7.0-openjdk-1.7.0.161.x86_64
+   57  ls
+   58  ls -ltr java-1.7.0-openjdk-1.7.0.161.x86_64
+   59  cd /
+   60  cd ~
+   61  ls
+   62  sudo update -y
+   63  sudo yum update -y
+   64  clear
+   65  ls
+   66  pwd
+   67  ls
+   68  clear
+   69  pwd
+   70  sudo -i
+   71  ls
+   72  which docker
+   73  docker
+   74  docker search
+   75  docker pull
+   76  docker pull ubuntu:14.04
+   77  systemctl start docker
+   78  ps -ef | grep docker
+   79  docker start
+   80  sudo service docker start
+   81  sudo service docker status
+   82  sudo service jenkins status
+   83  sudo service jenkins start
+   84  java -version
+   85  which java
+   86  update-alternatives --install /usr/bin/javac javac /usr/bin/jdk1.8.0_45/bin/javac 100
+   87  cd /opt
+   88  ls
+   89  cd aws
+   90  ls
+   91  cd bin
+   92  ls
+   93  vi ec2-metadata
+   94  vi ec2-describe-internet-gateways
+   95  echo $EC2-HOME
+   96  vi ec2-describe-internet-gateways
+   97  echo $EC2_HOME
+   98  cd /opt/aws/apitools/ec2
+   99  ls
+  100  vi environment.sh
+  101  cd /
+  102  cd ~
+  103  which java
+  104  cd /usr/bin/java
+  105  cd /usr/bin
+  106  ls
+  107  ls java
+  108  ls -ltr java
+  109  cd /etc/alternatives
+  110  ls
+  111  cd ~
+  112  ls
+  113  sudo apt-get purge openjdk-\*
+  114  sudo yum purge openjdk-\*
+  115  echo $JAVA_HOME
+  116  cd /usr/lib/jvm
+  117  ls
+  118  vi jre
+  119  java -version
+  120  cd /tmp
+  121  ls
+  122  cd ~
+  123  echo JAVA_HOME
+  124  echo $JAVA_HOME
+  125  cd /usr
+  126  ls
+  127  mkdir java
+  128  sudo -i
+  129  ls
+  130  wget --no-check-certificate -c --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u151-b12/e758a0de34e24606bca991d704f6dcbf/jdk-8u151-linux-x64.tar.gz
+  131  java -version
+  132  wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u151-b12/e758a0de34e24606bca991d704f6dcbf/jdk-8u151-linux-x64.rpm"
+  133  ls
+  134  sudo rpm -i
+  135  sudo rpm -i jdk-8u151-linux-x64.rpm
+  136  java -version
+  137  which java
+  138  cd /usr/bin/java
+  139  cd /usr/bin
+  140  ls
+  141  ls java
+  142  vi java
+  143  which java
+  144  cd /usr/bin
+  145  ls
+  146  vi java
+  147  cd ~
+  148  cd /usr/sbin
+  149  ls
+  150  ls alter*
+  151  vi alternatives
+  152  cd ../..
+  153  cd ~
+  154  grep jdk* *.*
+  155  which jdk
+  156  ls
+  157  sudo  /usr/bin/alternatives --install /usr/bin/java java /usr/java
+  158  cd /usr/java
+  159  ls
+  160  cd jdk1.8.0_151
+  161  ls
+  162  vi release
+  163  cd ~
+  164  /usr/bin/alternatives --install /usr/bin/java java /usr/java/jdk1.8.0_151/bin/java
+  165  /usr/sbin/alternatives --install /usr/bin/java java /usr/java/jdk1.8.0_151/bin/java
+  166  /usr/sbin/alternatives --install /usr/bin/java java /usr/java/jdk1.8.0_151/bin/java 3000
+  167  sudo /usr/sbin/alternatives --install /usr/bin/java java /usr/java/jdk1.8.0_151/bin/java 3000
+  168  sudo /usr/sbin/alternatives --config java
+  169  java -version
+  170  service jenkins status
+  171  sudo service jenkins status
+  172  sudo service jenkins start
+  173  sudo service jenkins status
+  174  sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo
+  175  sudo rpm --import http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key
+  176  India@India-PC MINGW64 /
+  177  $ cd C:
+  178  India@India-PC MINGW64 /c
+  179  $ cd Users/India/Downloads
+  180  India@India-PC MINGW64 ~/Downloads
+  181  $ ssh -i "centos7.pem" ec2-user@ec2-18-218-9-20.us-east-2.compute.amazonaws.com
+  182  Last login: Tue Jan 16 13:22:01 2018 from 220.227.185.237
+  183         __|  __|_  )
+  184         _|  (     /   Amazon Linux AMI;       ___|\___|___| https://aws.amazon.com/amazon-linux-ami/2017.09-release-notes/; [ec2-user@ip-172-31-17-250 ~]$ ls; jdk-8u151-linux-x64.rpm  jdk-8u151-linux-x64.tar.gz; [ec2-user@ip-172-31-17-250 ~]$ which java; /usr/bin/java; [ec2-user@ip-172-31-17-250 ~]$ cd /usr/bin; [ec2-user@ip-172-31-17-250 bin]$ ls; [                          db_dump185                   gnroff               jjs                  native2ascii8        pyrsa-decrypt-bigfile-2.7   sdbadmin-2.7         tset; a2p                        db_hotbackup                 gpasswd              jjs8                 nc                   pyrsa-encrypt-2.7           sdiff                tsort; ab                         db_load                      gpg                  jmap                 needs-restarting     pyrsa-encrypt-bigfile-2.7   secon                ttmkfdir; ac                         db_printlog                  gpg2                 jmap8                neqn                 pyrsa-keygen-2.7            sedismod             tty; acpi_listen                db_recover                   gpg-agent            jmc                  newaliases           pyrsa-priv2pub-2.7          sedispol             turbostat; addftinfo                  db_stat                      gpgconf              jmc.ini              newaliases.sendmail  pyrsa-sign-2.7              semodule_deps        tzselect; addr2line                  db_upgrade                   gpg-connect-agent    join                 newgrp               pyrsa-verify-2.7            semodule_expand      ucs2any; afs5log                    db_verify                    gpg-error            jp                   nl                   pystache                    semodule_link        ul; amazon-ssm-agent           dc                           gpgparsemail         jp-2.7               nm                   pystache-2.7                semodule_package     unexpand; appletviewer               deallocvt                    gpgsplit             jp.py                nohup                pystache-test               semodule_unpackage   uniq; appletviewer8              debuginfo-install            gpgsplit2            jp.py-2.7            nproc                pystache-test-2.7           seq                  unpack200; apropos                    diff                         gpgv                 jps                  nroff                python                      serialver            unpack2007; ar                         diff3                        gpgv2                jps8                 nsenter              python27                    serialver8           unpack2008; as                         diff-jars                    gpg-zip              jrunscript           nslookup             python2.7                   servertool           unshare; asadmin                    dig                          gpg-zip2             jrunscript8          nsupdate             python2.7-config            servertool7          unxz; asadmin-2.7                dir                          gpic                 jsadebugd            ntpstat              python-config               servertool8          unzip; aserver                    dircolors                    gprof                jsadebugd8           numactl              quota                       setarch              unzipsfx; at                         dirname                      grap2graph           jstack               numademo             quotasync                   setfacl              update-ca-trust; atq                        docker                       grefer               jstack8              numastat             rake                        setfattr             update-mime-database; atrm                       docker-containerd            grn                  jstat                numfmt               ranlib                      setkeycodes          uptime; attr                       docker-containerd-shim       grodvi               jstat8               objcopy              rdoc                        setleds              urlgrabber; aulast                     docker-ctr                   groff                jstatd               objdump              rdoc2.0                     setmetamode          urlgrabber-2.7; aulastlog                  dockerd                      grolbp               jstatd8              od                   readelf                     setpriv              users; ausyscall                  docker-init                  grolj4               jvisualvm            oldfind              readlink                    setsid               utmpdump; auvirt                     docker-proxy                 grops                jvmjar               on_ac_power          realpath                    setterm              uuidgen; awk                        docker-runc                  grotty               kbdrate              open                 rebuild-jar-repository      setup-nsssysinit     vdir; aws                        du                           groups               keytool              openssl              rebuild-security-providers  setup-nsssysinit.sh  verifytree; aws_completer              dwp                          growpart             keytool7             openvt               refer                       sftp                 vim; base64                     dynamodb_dump                gsettings            keytool8             orbd                 rename                      sg                   vimdiff; bashbug                    dynamodb_dump-2.7            gsoelim              kill                 orbd7                renice                      sha1hmac             vimtutor; bashbug-64                 dynamodb_load                gtbl                 killall              orbd8                repoclosure                 sha1sum              virtualenv; batch                      dynamodb_load-2.7            gtroff               kill_instance        p11-kit              repodiff                    sha224sum            virtualenv-2.7; bc                         easy_install                 gunzip               kill_instance-2.7    pack200              repo-graph                  sha256hmac           vmstat; bdftopcf                   easy_install-2.7             gzexe                kmod                 pack2007             repomanage                  sha256sum            w; berkeley_db_svc            eject                        gzip                 last                 pack2008             repoquery                   sha384hmac           wall; build-classpath            elbadmin                     h2ph                 lastb                package-cleanup      repo-rss                    sha384sum            watch; build-classpath-directory  elbadmin-2.7                 head                 lastcomm             passwd               reposync                    sha512hmac           watchgnupg; build-jar-repository       elfedit                      hexdump              lastlog              paste                repotrack                   sha512sum            wc; bundle_image               enable-ec2-spot-hibernation  hibagent             launch_instance      pathchk              reset                       shasum               wdctl; bundle_image-2.7           env                          host                 launch_instance-2.7  pdfroff              resizecons                  show-changed-rco     wget; bunzip2                    eqn                          hostid               lchfn                peekfd               rev                         showconsolefont      whatis; bzcat                      eqn2graph                    hoststat             lchsh                perl                 ri                          show-installed       whereis; bzcmp                      erb                          hpftodit             ld                   perl5.16.3           ri2.0                       showkey              which; bzdiff                     erb2.0                       htdbm                ld.bfd               perlbug              rmail                       shred                whiptail; bzgrep                     ex                           htdigest             ldd                  perldoc              rmail.sendmail              shuf                 who; bzip2                      expand                       htpasswd             ld.gold              perlthanks           rmic                        signtool             whoami; bzip2recover               expr                         i386                 less                 pfbtops              rmic8                       signver              withsctp; bzless                     extcheck                     iconv                lessecho             pgawk                rmid                        size                 write; bzmore                     extcheck8                    id                   lesskey              pgrep                rmid7                       skill                wsgen; c2ph                       factor                       idlj                 lesspipe.sh          pic                  rmid8                       slabtop              wsgen8; cal                        fallocate                    idlj8                lexgrog              pic2graph            rmiregistry                 slogin               wsimport; ca-legacy                  fc-cache                     idn                  linux32              piconv               rmiregistry7                snice                wsimport8; captoinfo                  fc-cat                       idn2                 linux64              pinentry             rmiregistry8                soelim               x86_64; catchsegv                  fc-list                      igawk                list_instances       pinentry-curses      rnano                       sotruss              x86_energy_perf_policy; catman                     fc-match                     indxbib              list_instances-2.7   pinky                rngtest                     splain               xargs; centrino-decode            fc-query                     info                 lkbib                pip                  route53                     split                xjc; certutil                   fc-scan                      infocmp              loadunimap           pip-2.7              route53-2.7                 sprof                xjc8; cfadmin                    fetch_file                   infokey              locale               pk12util             rpcgen                      sqlite3              xmlcatalog; cfadmin-2.7                fetch_file-2.7               infotocap            localedef            pkg-config           rpm2cpio                    ssh                  xmllint; c++filt                    fgconsole                    install              lockfile             pkill                rpmdb                       ssh-add              xmlwf; chacl                      file                         instance_events      logger               pl2pm                rpmkeys                     ssh-agent            xsltproc; chage                      find                         instance_events-2.7  logname              pldd                 rpmquery                    ssh-copy-id          xxd; chattr                     find2perl                    ionice               logresolve           pmap                 rpmverify                   ssh-keygen           xz; chcon                      find-jar                     ipcmk                look                 pm-is-supported      rst2html                    ssh-keyscan          xzcat; check-binary-files         find-repos-of-install        ipcrm                lookbib              pod2html             rst2html-2.7                ssltap               xzcmp; checkmodule                fipscheck                    ipcs                 lsattr               pod2man              rst2latex                   ssm-cli              xzdec; checkpolicy                fipshmac                     irb                  lscpu                pod2text             rst2latex-2.7               ssm-document-worker  xzdiff; checksctp                  flock                        irb2.0               lsipc                pod2usage            rst2man                     stat                 xzegrep; chfn                       fmt                          isosize              lslocks              policytool           rst2man-2.7                 stdbuf               xzfgrep; chrt                       fold                         jar                  lslogins             policytool7          rst2odt                     strings              xzgrep; chsh                       fonttosfnt                   jar8                 lsns                 policytool8          rst2odt-2.7                 strip                xzless; chvt                       formail                      jarsigner            lss3                 post-grohtml         rst2odt_prepstyles          sudo                 xzmore; cksum                      free                         jarsigner8           lss3-2.7             powernow-k8-decode   rst2odt_prepstyles-2.7      sudoedit             yes; clean-binary-files         funzip                       java                 lua                  pr                   rst2pseudoxml               sudoreplay           yum; clear                      gawk                         java7                luac                 preconv              rst2pseudoxml-2.7           sum                  yum-builddep; cloud-init                 gdbus                        java8                mailq                pre-grohtml          rst2s5                      systool              yum-config-manager; cloud-init-cfg             gdiffmk                      javac                mailq.sendmail       printenv             rst2s5-2.7                  tabs                 yum-debug-dump; cloud-init-per             gem                          javac8               mailstat             printf               rst2xetex                   tac                  yum-debug-restore; cmp                        gem2.0                       javadoc              make                 prlimit              rst2xetex-2.7               tail                 yumdownloader; cmsutil                    gencat                       javadoc8             makedb               procmail             rst2xml                     tailf                yum-groups-manager; col                        geqn                         javafxpackager       makemap              prtstat              rst2xml-2.7                 taskadmin            zcat; colcrt                     getconf                      javah                man                  psed                 rstpep2html                 taskadmin-2.7        zcmp; colrm                      getent                       javah8               mandb                psfaddtable          rstpep2html-2.7             tbl                  zdiff; column                     getfacl                      javap                manpath              psfgettable          rsync                       tee                  zegrep; comm                       getfattr                     javap8               mapscrn              psfstriptable        ruby                        test                 zfgrep; ControlPanel               getkeycodes                  javapackager         mbchk                psfxtable            ruby2.0                     testrb               zforce; cpupower                   get_module                   java-rmi.cgi         mcookie              pstree               runcon                      testrb2.0            zgrep; cq                         getopt                       java-rmi.cgi8        md5sum               pstree.x11           run-parts                   tfmtodit             zip; cq-2.7                     get_reference_source         javaws               memhog               pstruct              rvim                        tic                  zipcloak; create-jar-links           gindxbib                     jcmd                 mesg                 ptx                  s2p                         time                 zipgrep; crlutil                    gio-querymodules-64          jcmd8                migratepages         purgestat            s3put                       timeout              zipinfo; crontab                    git                          jconsole             migspeed             pwdx                 s3put-2.7                   tload                zipnote; csplit                     git-receive-pack             jconsole8            mkfifo               pwmake               schemagen                   tmpwatch             zipsplit; curl                       git-shell                    jcontrol             mkfontdir            pwscore              schemagen8                  tnameserv            zless; cut                        git-upload-archive           jdb                  mkfontscale          pyami_sendmail       scp                         tnameserv7           zmore; cwutil                     git-upload-pack              jdb8                 modutil              pyami_sendmail-2.7   screen                      tnameserv8           znew; cwutil-2.7                 glacier                      jdeps                mountpoint           pybabel              script                      toe                  zsoelim; db_archive                 glacier-2.7                  jdeps8               mturk                pybabel-2.7          scriptreplay                top; db_checkpoint              glib-compile-schemas         jhat                 mturk-2.7            pydoc                sctp_darn                   tput; db_codegen                 glookbib                     jhat8                namei                pydoc27              sctp_status                 tr; db_deadlock                gmake                        jinfo                nano                 pydoc2.7             sctp_test                   troff; db_dump                    gneqn                        jinfo8               native2ascii         pyrsa-decrypt-2.7    sdbadmin                    truncate; [ec2-user@ip-172-31-17-250 bin]$ vi java; [ec2-user@ip-172-31-17-250 bin]$ cd ~; [ec2-user@ip-172-31-17-250 ~]$ cd /usr/sbin; [ec2-user@ip-172-31-17-250 sbin]$ ls; accessdb              clockdiff             getpcaps                   lpasswd            pam_tally2                  rpc.rquotad        sshd-keygen          usernetctl; accton                convertquota          getsebool                  lsmod              pam_timestamp_check         rpc.svcgssd        start-statd          vigr; acpid                 cracklib-check        glibc_post_upgrade.x86_64  lsof               pdata_tools                 rtacct             suexec               vipw; addgnupghome          cracklib-format       groupadd                   luseradd           ping6                       rtcwake            sulogin              visudo; adduser               cracklib-packer       groupdel                   luserdel           pluginviewer                rtstat             swaplabel            weak-modules; alternatives          cracklib-unpacker     groupmems                  lusermod           pm-hibernate                run_init           sys-unconfig         xfs_admin; anacron               create-cracklib-dict  groupmod                   mailstats          pm-powersave                sa                 tcpd                 xfs_bmap; apachectl             crond                 grpck                      makemap            pm-suspend                  safe_finger        tcpdmatch            xfs_check; applygnupgdefaults    ctstat                grpconv                    matchpathcon       pm-suspend-hybrid           saslauthd          testsaslauthd        xfs_copy; arpd                  depmod                grpunconv                  mkdict             pm-utils-bugreport-info.sh  sasldblistusers2   thin_check           xfs_db; arping                dump-acct             htcacheclean               mkfs.minix         praliases                   saslpasswd2        thin_delta           xfs_estimate; atd                   dump-utmp             httpd                      mkhomedir_helper   pwck                        selinuxconlist     thin_dump            xfs_freeze; atrun                 e2freefrag            httpd.event                mklost+found       pwconv                      selinuxdefcon      thin_ls              xfs_fsr; authconfig            e4defrag              httpd.worker               modinfo            pwhistory_helper            selinuxenabled     thin_metadata_size   xfs_growfs; authconfig-tui        edquota               httxt2dbm                  modprobe           pwunconv                    selinuxexeccon     thin_repair          xfs_info; avcstat               era_check             hwclock                    mountstats         quota_nld                   semodule           thin_restore         xfs_io; blkmapd               era_dump              iconvconfig                newusers           quotastats                  sendmail           thin_rmap            xfs_logprint; build-locale-archive  era_invalidate        iconvconfig.x86_64         nfsdcltrack        raid-check                  sendmail.sendmail  thin_trim            xfs_mdrestore; cacertdir_rehash      era_restore           ifstat                     nfsidmap           rcjenkins                   sestatus           tickadj              xfs_metadump; cache_check           ethtool               insmod                     nfsiostat          readprofile                 setcap             tmpwatch             xfs_mkfile; cache_dump            exportfs              irqbalance                 nfsstat            repquota                    setenforce         togglesebool         xfs_ncheck; cache_metadata_size   faillock              kacpimon                   nstat              resizepart                  setfiles           tracepath            xfs_quota; cache_repair          fdformat              lchage                     ntpd               restorecon                  setquota           tracepath6           xfs_rtcp; cache_restore         filefrag              ldattach                   ntpdate            rmmod                       setsebool          try-from             yum-complete-transaction; capsh                 fixfiles              lgroupadd                  ntpdc              rngd                        seunshare          unix_chkpwd          yumdb; cbq                   fixparts              lgroupdel                  ntp-keygen         rotatelogs                  sgdisk             unix_update          zdump; cc_dump               fsck.minix            lgroupmod                  ntpq               rpcdebug                    showmount          update-alternatives  zic; ccreds_chkpwd         gdisk                 lid                        ntptime            rpc.gssd                    sm-notify          update-motd; cc_test               genhomedircon         lnewusers                  ntsysv             rpc.idmapd                  smrsh              update-pciids; cgdisk                genl                  lnstat                     open_init_pty      rpcinfo                     sntp               useradd; chpasswd              getcap                load_policy                packer             rpc.mountd                  ss                 userdel; chroot                getenforce            logrotate                  pam_console_apply  rpc.nfsd                    sshd               usermod; [ec2-user@ip-172-31-17-250 sbin]$ ls alter*; alternatives; [ec2-user@ip-172-31-17-250 sbin]$ vi alternatives; [ec2-user@ip-172-31-17-250 sbin]$ cd ../..; [ec2-user@ip-172-31-17-250 /]$ cd ~; [ec2-user@ip-172-31-17-250 ~]$ grep jdk* *.*; [ec2-user@ip-172-31-17-250 ~]$ which jdk; /usr/bin/which: no jdk in (/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.151-1.b12.35.amzn1.x86_64/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/aws/bin:/home/ec2-user/.local/bin:/home/ec2-user/bin)
+  185  [ec2-user@ip-172-31-17-250 ~]$ ls
+  186  jdk-8u151-linux-x64.rpm  jdk-8u151-linux-x64.tar.gz
+  187  [ec2-user@ip-172-31-17-250 ~]$ sudo  /usr/bin/alternatives --install /usr/bin/java java /usr/java
+  188  sudo: /usr/bin/alternatives: command not found
+  189  [ec2-user@ip-172-31-17-250 ~]$ cd /usr/java
+  190  [ec2-user@ip-172-31-17-250 java]$ ls
+  191  default  jdk1.8.0_151  latest
+  192  [ec2-user@ip-172-31-17-250 java]$ cd jdk1.8.0_151
+  193  [ec2-user@ip-172-31-17-250 jdk1.8.0_151]$ ls
+  194  bin  COPYRIGHT  db  include  javafx-src.zip  jre  lib  LICENSE  man  README.html  release  src.zip  THIRDPARTYLICENSEREADME-JAVAFX.txt  THIRDPARTYLICENSEREADME.txt
+  195  [ec2-user@ip-172-31-17-250 jdk1.8.0_151]$ vi release
+  196  [ec2-user@ip-172-31-17-250 jdk1.8.0_151]$ cd ~
+  197  [ec2-user@ip-172-31-17-250 ~]$ /usr/bin/alternatives --install /usr/bin/java java /usr/java/jdk1.8.0_151/bin/java
+  198  -bash: /usr/bin/alternatives: No such file or directory
+  199  [ec2-user@ip-172-31-17-250 ~]$ /usr/sbin/alternatives --install /usr/bin/java java /usr/java/jdk1.8.0_151/bin/java
+  200  alternatives version 1.3.49.3 - Copyright (C) 2001 Red Hat, Inc.
+  201  This may be freely redistributed under the terms of the GNU Public License.
+  202  usage: alternatives --install <link> <name> <path> <priority>
+  203                      [--initscript <service>]
+  204                      [--slave <link> <name> <path>]*
+  205         alternatives --remove <name> <path>
+  206         alternatives --auto <name>
+  207         alternatives --config <name>
+  208         alternatives --display <name>
+  209         alternatives --set <name> <path>
+  210         alternatives --update <name> <path>
+  211                      [--addslave <link> <name> <path>]*
+  212                      [--removeslave <name> ]*
+  213         alternatives --refresh <name>
+  214  common options: --verbose --test --force --help --usage --version
+  215                  --altdir <directory> --admindir <directory>
+  216  [ec2-user@ip-172-31-17-250 ~]$ /usr/sbin/alternatives --install /usr/bin/java java /usr/java/jdk1.8.0_151/bin/java 3000
+  217  failed to create /var/lib/alternatives/java.new: Permission denied
+  218  [ec2-user@ip-172-31-17-250 ~]$ sudo /usr/sbin/alternatives --install /usr/bin/java java /usr/java/jdk1.8.0_151/bin/java 3000
+  219  [ec2-user@ip-172-31-17-250 ~]$ sudo /usr/sbin/alternatives --config java
+  220  There are 4 programs which provide 'java'.
+  221    Selection    Command
+  222  -----------------------------------------------
+  223     1           /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java
+  224     2           /usr/lib/jvm/jre-1.8.0-openjdk.x86_64/bin/java
+  225  *+ 3           /usr/java/jdk1.8.0_151/jre/bin/java
+  226     4           /usr/java/jdk1.8.0_151/bin/java
+  227  Enter to keep the current selection[+], or type selection number: 4
+  228  [ec2-user@ip-172-31-17-250 ~]$ java -version
+  229  java version "1.8.0_151"
+  230  Java(TM) SE Runtime Environment (build 1.8.0_151-b12)
+  231  Java HotSpot(TM) 64-Bit Server VM (build 25.151-b12, mixed mode)
+  232  [ec2-user@ip-172-31-17-250 ~]$ service jenkins status
+  233  /etc/sysconfig/jenkins not readable. Perhaps you forgot 'sudo'?
+  234  [ec2-user@ip-172-31-17-250 ~]$ sudo service jenkins status
+  235  jenkins dead but pid file exists
+  236  [ec2-user@ip-172-31-17-250 ~]$ sudo service jenkins start
+  237  Starting Jenkins                                           [  OK  ]
+  238  [ec2-user@ip-172-31-17-250 ~]$ sudo service jenkins status
+  239  jenkins (pid  1096) is running...
+  240  [ec2-user@ip-172-31-17-250 ~]$ sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo
+  241  --2018-01-16 15:41:42--  http://pkg.jenkins-ci.org/redhat/jenkins.repo
+  242  Resolving pkg.jenkins-ci.org (pkg.jenkins-ci.org)... 52.202.51.185
+  243  Connecting to pkg.jenkins-ci.org (pkg.jenkins-ci.org)|52.202.51.185|:80... connected.
+  244  HTTP request sent, awaiting response... 200 OK
+  245  Length: 71
+  246  Saving to: ‘/etc/yum.repos.d/jenkins.repo’
+  247  /etc/yum.repos.d/jenkins.repo                   100%[=======================================================================================================>]      71  --.-KB/s    in 0s
+  248  2018-01-16 15:41:44 (13.1 MB/s) - ‘/etc/yum.repos.d/jenkins.repo’ saved [71/71]
+  249  [ec2-user@ip-172-31-17-250 ~]$ sudo rpm --import http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key
+  250  sudo yum install jenkins
+  251  ps -ef | grep httpd
+  252  ps -ef | grep apache
+  253  service httpd status
+  254  sudo service httpd status
+  255  cd /var/html
+  256  cd /var/www
+  257  ls
+  258  cd html
+  259  ls
+  260  vi sample.html
+  261  touch sample.html
+  262  chmod 755 sample.html
+  263  ls
+  264  vi sample.html
+  265  ls
+  266  cd /etc
+  267  ls
+  268  cd httpd
+  269  ls
+  270  cd conf.d
+  271  ls
+  272  vi welcome.conf
+  273  cd ../..
+  274  ls
+  275  cd ..
+  276  cd ~
+  277  sudo sysctl docker start
+  278  sudo sysctl 
+  279  cd /etc
+  280  ls
+  281  vi services
+  282  vmstat
+  283  cd ..
+  284  sudo -i
+  285  ls
+  286  cd ~
+  287  ls
+  288  wget wget https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.0.M10/bin/apache-tomcat-9.0.0.M10.tar.gz
+  289  ls
+  290  tar xzf apache-tomcat-9.0.0.M10.tar.gz
+  291  ls
+  292  sudo mv apache-tomcat-9.0.0.M10 tomcat9
+  293  ls
+  294  cd /home
+  295  ls
+  296  cd ec2-user
+  297  ls
+  298  pwd
+  299  cd tomcat9
+  300  ls
+  301  cd conf
+  302  ls
+  303  vi tomcat-users.xml
+  304  cd ../..
+  305  ls
+  306  cd tomcat9
+  307  ls
+  308  ls -a
+  309  cd bin
+  310  ls
+  311  cd ..
+  312  ./bin/startup.sh
+  313  sudo service tomcat status
+  314  sudo service Tomcat status
+  315  ps -ef | grep Tomcat
+  316  find / -name user.xml
+  317  ls
+  318  cd conf
+  319  ls
+  320  vi tomcat-users.xml
+  321  vim tomcat-users.xml
+  322  cd ..
+  323  ./bin/startup.sh
+  324  java -version
+  325  echo %$PATH%
+  326  cd ..
+  327  ls
+  328  cd /etc/httpd/conf.d/welcome.conf
+  329  vi welcome.conf
+  330  cd ~
+  331  ls
+  332  cd /var
+  333  ls
+  334  cd www
+  335  ls
+  336  cd html
+  337  ls
+  338  vi sample.html
+  339  cd ..
+  340  ls
+  341  find / -name jenkins.war
+  342  cd /usr/lib/jenkins
+  343  ls
+  344  cp jenkins.war /var/www/html
+  345  cd /var/www/html
+  346  ls
+  347  sudo service Tomcat status
+  348  sudo service tomcat status
+  349  clear
+  350  ls
+  351  chkconfig --level 2345 tomcat on
+  352  cd ~
+  353  chkconfig --level 2345 tomcat on
+  354  sudo -i
+  355  logout
+  356  ls
+  357  cd /etc
+  358  ls
+  359  vi rc3.d
+  360  cd ~
+  361  ls
+  362  cd tomcat9
+  363  ls
+  364  cd webapps
+  365  ls
+  366  cd ..
+  367  ls
+  368  cd conf
+  369  ls
+  370  vi tomcat-users.xml
+  371  cd /usr
+  372  ls
+  373  find / -name jenkins
+  374  cd /lib
+  375  ls
+  376  pwd
+  377  cd /usr/lib
+  378  ls
+  379  cd jenkins
+  380  ls
+  381  cd ../; cd tmpfiles.d
+  382  ls
+  383  vi rpm.conf
+  384  cd ..
+  385  ls
+  386  cd jenkins
+  387  ls
+  388  pwd
+  389  cd /var/lib/jenkins
+  390  ls
+  391  vi config.xml
+  392  sudo vi config.xml
+  393  ls
+  394  cd nodes
+  395  ls
+  396  cd ../ ; cd jobs
+  397  ls
+  398  cd ../; vim nodeMonitors.xml
+  399  sudo vim nodeMonitors.xml
+  400  cd ../
+  401  ls
+  402  cd amazon
+  403  ls
+  404  cd ssm
+  405  ls
+  406  cd daemons
+  407  sudo cd daemons
+  408  cd localcommands
+  409  cd i-036163142bb00624b
+  410  pwd
+  411  sudo -i
+  412  pwd
+  413  ls
+  414  docker start
+  415  ls
+  416  cd tomcat9
+  417  ls
+  418  cd webapps
+  419  ls
+  420  find / -name jenkins.war
+  421  cp /usr/lib/jenkins/jenkins.war .
+  422  ls
+  423  cd examples
+  424  ls
+  425  cd WEB-INF
+  426  ls
+  427  vi web.xml
+  428  ls
+  429  pwd
+  430  cd ../..
+  431  ls
+  432  cd host-manager
+  433  ls
+  434  cd WEB-INF
+  435  ls
+  436  pwd
+  437  cd ../ ; cd manager
+  438  ls
+  439  cd WEB-INF
+  440  ls
+  441  vi web.xml
+  442  pwd
+  443  find / -name $CATELINA_HOME 
+  444  find / -name $CATELINA_HOME *.*
+  445  sudo -i
+  446  history >jan17.txt
